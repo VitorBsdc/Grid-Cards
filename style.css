@@ -1,0 +1,53 @@
+/* Body */
+body {
+    background-image: linear-gradient(120deg, #12c2e9, #c471ed, #f64f59);/* Fundo em degradê da página */
+    font-family: monospace;/* Fonte de toda a página */
+	color: #333;/* Cor de todas as fontes */
+}
+
+body > div {
+	padding: 40px 0;/* Padding da div em relação ao body */
+}
+
+/* Textos fora do grid */
+h1 {
+	text-align: center;/* Texto no centro */
+	font-size: 1.4em;/* Tamanho da fonte 'em' */
+	font-weight: normal;/* Intensidade da fonte */
+    margin-bottom: 50px;/* Margem inferior */
+}
+
+/* Formação das Grid */
+.grid {
+	display: grid;/* Forma a grid */
+	grid-template-columns: repeat(3, 1fr);/* Primeira coluna (main) */
+	grid-template-rows: repeat(2, 200px);/* Segunda coluna (child) */
+    grid-template-rows: repeat(3, 200px);/* Terceira coluna (child) */
+}
+
+/* Grid Itens */
+.item {
+	margin: 7px;/* Espaçamento entre os elementos */
+	background-color: rgb(115, 115, 235);/* Cor do elemento */
+	text-align: center;/* Texto ao centro */
+	font-size: 1.5em;/* Tamanho da fonte */
+    cursor: pointer;/* Cursor sobre o elemento */
+    border-radius: 10px;/* Arredondar as bordas */
+}
+
+/* Margem e tamanho do grid total */
+.grid {
+	max-width: 900px;/* Tamanho máximo da grid */
+	margin: 0 auto;/* Margem da grid (Alinha no centro)*/
+}
+
+/* Footer */
+.footer {
+    background-image: linear-gradient( 130deg, #12c2e9, #c471ed, #f64f59);/* Fundo do footer */
+    padding: 30px;/* Espaço top and bottom */
+    text-align: center;/* Alinhamento texto */
+    font-size: 1.9em;/* Fonte do texto */
+    margin-left: -10px;/* Consertar margem */
+    margin-right: -10px;/* Consertar margem */
+    margin-bottom: -10px;/* Consertar margem */
+}
